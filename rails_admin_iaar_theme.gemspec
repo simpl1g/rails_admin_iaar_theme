@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Konstantin Ilchenko"]
   s.email       = ["simpli4eg@gmail.com"]
   s.homepage    = "git://github.com/simpl1g/rails_admin_iaar_theme.git"
-  s.summary     = "Summary of RailsAdminIaarTheme."
+  s.summary     = "Summary of RailsAdminIaarTheme. Tratata"
   s.description = "Adds stats to rails admin"
 
   s.files = Dir["{app,lib,vendor}/**/**/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
