@@ -9,8 +9,7 @@ Gem::Specification.new do |s|
   s.version     = RailsAdminIaarTheme::VERSION
   s.authors     = ["Konstantin Ilchenko"]
   s.email       = ["simpli4eg@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsAdminIaarTheme."
+  s.homepage    = "git://github.com/simpl1g/rails_admin_iaar_theme.git"
   s.description = "Adds stats to rails admin"
 
   s.files = Dir["{app,lib,vendor}/**/**/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
