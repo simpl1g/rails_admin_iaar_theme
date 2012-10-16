@@ -14,7 +14,7 @@ $.fn.drawStats = ->
     e.preventDefault()
     $(this).tab "show"
 
-  $("a[href=\"#daily\"]").on "shown", (e) ->
+  $("a[href='#daily']").on "shown", (e) ->
     $("#users_daily_chart").html ""
     Morris.Line
       element: "users_daily_chart"
