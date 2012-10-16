@@ -1,7 +1,7 @@
 #= require morris
 #= require raphael
 
-$ ->
+$.fn.drawStats = ->
   Morris.Line
     element: "total_users_chart"
     data: $("#total_users_chart").data("users")
