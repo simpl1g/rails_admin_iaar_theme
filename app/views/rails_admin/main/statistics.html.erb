@@ -1,0 +1,19 @@
+<ul class="nav nav-tabs" id="myTab">
+  <li class="active"><a href="#total">Total Users</a></li>
+  <li><a href="#daily">Users per day</a></li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="total">
+    <div class="well">
+      Total users growth
+      <%= content_tag :div, "", id: "total_users_chart", data: {users: total_users_by_day(@grouped_users)} %>
+    </div>
+  </div>
+  <div class="tab-pane" id="daily">
+    <div class="well">
+      Users daily
+      <%= content_tag :div, "", id: "users_daily_chart", data: {users: @grouped_users.to_json} %>
+    </div>
+  </div>
+</div>
